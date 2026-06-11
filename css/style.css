@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Cause:wght@100..900&display=swap');
 
-*:nor(dialog) {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -143,7 +143,7 @@ h2 {
     font-family: "Boogaloo", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-
+    margin: 20px;
 }
 p#resultado {
     background-color: var(--texto);
@@ -174,8 +174,8 @@ p#resultado {
 }
 
 dialog {
-    width: 50%;
-    height: 40%;
+    width: 50vw;
+    padding-bottom: 60px;
     margin: 100px auto;
     border-radius: 20px;
     border: none;
